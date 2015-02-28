@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"/>
+
+<plist version="1.0">
+    <dict>
+	<!-- 图形资源路径 -->
+        <key>image</key>
+        <string>qiandai/qiandai.png</string>
+	
+	<!-- 最大生命值 -->
+        <key>MAXHP</key>
+        <real>200.0000000</real>
+
+	<!-- 攻击强度  基础100%	-->
+        <key>AttackStrength</key>
+        <real>1.0000000</real>
+
+	<!-- 移动速度  基础100% -->
+        <key>Speed</key>
+        <real>1.0000000</real>
+
+	<!-- 头像 0~100 -->
+        <key>HP100</key>
+        <string>qiandai/100.png</string>
+        <key>HP90</key>
+        <string>qiandai/100.png</string>
+        <key>HP80</key>
+        <string>qiandai/80.png</string>
+        <key>HP70</key>
+        <string>qiandai/80.png</string>
+        <key>HP60</key>
+        <string>qiandai/60.png</string>
+        <key>HP50</key>
+        <string>qiandai/50.png</string>
+        <key>HP40</key>
+        <string>qiandai/40.png</string>
+        <key>HP30</key>
+        <string>qiandai/30.png</string>
+        <key>HP20</key>
+        <string>qiandai/20.png</string>
+        <key>HP10</key>
+        <string>qiandai/10.png</string>
+        <key>HP0</key>
+        <string>qiandai/0.png</string>
+
+	<!-- 死亡 -->
+        
+
+
+	<!-- 技能 -->
+	<!-- 说明 -->
+    </dict>
+</plist>

@@ -1,0 +1,30 @@
+﻿<dict>  
+    <key>danmuyouxi</key>  
+    <string>弹幕游戏</string> 
+    <key>kaishiyouxi</key>  
+    <string>开始游戏</string>  
+    <key>cundang</key>  
+    <string>存档</string>  
+    <key>paiming</key>  
+    <string>排名</string> 
+    <key>shezhi</key>  
+    <string>设置</string> 
+    <key>tuichu</key>  
+    <string>退出</string>
+
+    <key>queding</key>  
+    <string>1.确定</string>
+    <key>quxiao</key>  
+    <string>2.取消</string>
+
+    <key>level1</key>  
+    <string>level1</string>
+
+
+    <key>level2</key>  
+    <string>level2</string>
+
+	<key>level3</key>  
+    <string>level3</string>
+
+</dict>

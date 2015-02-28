@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\初始界面">
+      <UniqueIdentifier>{d8243e3d-34d7-4c6b-a295-92348faea473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\游戏视图">
+      <UniqueIdentifier>{80500d23-f94b-47d7-a517-1bee0f57d3ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\自定义基础精灵">
+      <UniqueIdentifier>{84dafcee-c24f-4ea8-9a45-c783c5dcaa84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\辅助类">
+      <UniqueIdentifier>{3899d168-4f14-45be-aa9c-64581564f226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\测试类">
+      <UniqueIdentifier>{9e6405cf-5900-428c-8adb-6825bb53e388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\自定义基础精灵\弹幕相关">
+      <UniqueIdentifier>{038afdc1-f647-434b-940b-9d757fc7a0bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\辅助类\中文">
+      <UniqueIdentifier>{0b128ddc-2605-4029-85e1-d0bf72b948e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\自定义基础精灵\弹幕">
+      <UniqueIdentifier>{c5810043-b4fa-4954-9528-ee4f7c9c640c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\自定义基础精灵\角色">
+      <UniqueIdentifier>{dfb2cf6e-fa0e-43bb-9153-85025850506f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\辅助类\攻击">
+      <UniqueIdentifier>{6fbbf16e-aefc-4cba-b2af-a2fb295745d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\辅助类\消息弹出">
+      <UniqueIdentifier>{4bed0e06-4854-4842-a5c5-8c94c4b8b833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\游戏视图\选关">
+      <UniqueIdentifier>{582032a9-b84d-4bb7-b13c-8c2c36e70182}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src\初始界面</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src\初始界面</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameBackgroundView.cpp">
+      <Filter>src\游戏视图</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DMGameView.cpp">
+      <Filter>src\游戏视图</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DMGameControl.cpp">
+      <Filter>src\游戏视图</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BaseSprite.cpp">
+      <Filter>src\自定义基础精灵</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpriteManager.cpp">
+      <Filter>src\辅助类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TestView.cpp">
+      <Filter>src\测试类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\KeyMessages.cpp">
+      <Filter>src\辅助类</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DanMu.cpp">
+      <Filter>src\自定义基础精灵\弹幕相关</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\danmuci.cpp">
+      <Filter>src\自定义基础精灵\弹幕相关</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\gongjifangshi.cpp">
+      <Filter>src\自定义基础精灵\弹幕相关</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TextUTF8.cpp">
+      <Filter>src\辅助类\中文</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CharacterSprite.cpp">
+      <Filter>src\自定义基础精灵\角色</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayerSprite.cpp">
+      <Filter>src\自定义基础精灵\角色</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BarrageSprite.cpp">
+      <Filter>src\自定义基础精灵\弹幕</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Attack.cpp">
+      <Filter>src\辅助类\攻击</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameMessage.cpp">
+      <Filter>src\辅助类\消息弹出</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BossSprite.cpp">
+      <Filter>src\自定义基础精灵\角色</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameMessage2.cpp">
+      <Filter>src\辅助类\消息弹出</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SelectLevelView.cpp">
+      <Filter>src\游戏视图\选关</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src\初始界面</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src\初始界面</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameBackgroundView.h">
+      <Filter>src\游戏视图</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DMGameView.h">
+      <Filter>src\游戏视图</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DMGameControl.h">
+      <Filter>src\游戏视图</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BaseSprite.h">
+      <Filter>src\自定义基础精灵</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpriteManager.h">
+      <Filter>src\辅助类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TestView.h">
+      <Filter>src\测试类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\KeyMessages.h">
+      <Filter>src\辅助类</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DanMu.h">
+      <Filter>src\自定义基础精灵\弹幕相关</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\gongjifangshi.h">
+      <Filter>src\自定义基础精灵\弹幕相关</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\danmuci.h">
+      <Filter>src\自定义基础精灵\弹幕相关</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TextUTF8.h">
+      <Filter>src\辅助类\中文</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CharacterSprite.h">
+      <Filter>src\自定义基础精灵\角色</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayerSprite.h">
+      <Filter>src\自定义基础精灵\角色</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BarrageSprite.h">
+      <Filter>src\自定义基础精灵\弹幕</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Attack.h">
+      <Filter>src\辅助类\攻击</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameMessage.h">
+      <Filter>src\辅助类\消息弹出</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BossSprite.h">
+      <Filter>src\自定义基础精灵\角色</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameMessage2.h">
+      <Filter>src\辅助类\消息弹出</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SelectLevelView.h">
+      <Filter>src\游戏视图\选关</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

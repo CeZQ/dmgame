@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"/>
+
+<plist version="1.0">
+    <dict>
+	<!-- 图形资源路径 -->
+
+	<!-- 初始界面背景图 -->
+	<key>initImage</key>
+        <string>Image/MainImage.png</string>
+	<!-- 游戏界面背景图 -->
+	<key>initImage</key>
+        <string>Image/MainImage.png</string>
+
+
+    </dict>
+</plist>

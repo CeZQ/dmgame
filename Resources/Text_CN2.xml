@@ -1,0 +1,10 @@
+﻿<dict>  
+    <key>chongxin</key>  
+    <string>1.重新</string> 
+    <key>fanhui</key>  
+    <string>2.返回</string>  
+    <key>title</key>
+    <string>失败</string>
+    <key>message</key>
+    <string>游戏失败</string>
+</dict>

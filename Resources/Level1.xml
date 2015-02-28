@@ -1,0 +1,37 @@
+﻿<dict>
+	<!-- 关卡开始部分游戏弹窗内容 -->
+
+
+        <key>title1</key>
+        <string>佐仓千代:</string>
+        <key>message1</key>
+        <string>第一关主要是弹幕躲避练习</string>
+	<key>image1</key>
+        <string>duihuakuang.png</string>
+
+	
+	<!-- 关卡结束部分游戏弹窗内容 -->
+
+
+        <key>title2</key>
+        <string>佐仓千代:</string>
+        <key>message2</key>
+        <string>恭喜通关</string>
+	<key>image2</key>
+        <string>duihuakuang.png</string>
+
+
+	<!-- 评价 -->
+	<key>100</key>
+        <string>100</string>
+	<key>80</key>
+        <string>80</string>
+	<key>60</key>
+        <string>60</string>
+	<key>40</key>
+        <string>40</string>
+	<key>0</key>
+        <string>0</string>
+
+	
+    </dict>
